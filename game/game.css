@@ -1,0 +1,125 @@
+html{
+    height: 100%;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+#player_info{
+    /* border: 1px solid white;
+    height: 50px;
+    width: 400px; */
+    margin: 0px auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+#player_info button{
+    font-size: 20px;
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+    height: 50px;
+    width: 250px;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(207, 193, 193, 0.1);
+    border-color: rgb(185, 185, 185);
+    border-style: solid;
+    border-radius: 8px;
+    cursor: pointer !important;
+}
+#player_1{
+    height: max-content;
+    display: none;
+    font-family: 'Archivo Black', sans-serif;
+    /* border: 1px solid white; */
+    font-size: 40px;
+    color: white;
+    width: max-content;
+    text-align: center;
+    
+}
+
+#player_2{
+    height: max-content;
+    /* border: 1px solid white; */
+    display: none;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 40px;
+    color: white;
+    width: max-content;
+    text-align: center;
+}
+#vs{
+    display: none;
+    color: white;
+    font-size: 30px;
+    font-family: 'Archivo Black', sans-serif;
+    vertical-align: middle;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+#player_1 h1{
+    display: none;
+}
+
+#game_ui{
+    /* padding-top: 40px; */
+    height: 700px;
+    width: 550px;
+    border: 1px;
+    border-radius: 8px;
+    margin: 0px auto;
+    margin-top: 20px !important;
+    background-color: rgba(204, 203, 203,0.2);
+}
+#but{
+    font-size: 20px;
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(207, 193, 193, 0.1);
+    border-color: rgb(185, 185, 185);
+    border-style: solid;
+    border-radius: 8px;
+    cursor: pointer !important;
+
+}	 
+#but:active{
+    font-size: 20px;
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    color: white;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    border-color: rgb(185, 185, 185);
+    border-style: solid;
+    border-radius: 8px;
+    cursor: pointer !important;
+}	 
+#b1 , #b2 , #b3 , #b4 , #b5 , #b6 , #b7 , #b8 , #b9 {
+
+    height: 120px;
+    width: 120px;
+    line-height: 10px;
+    position: relative;
+    left: 15%;
+    font-family: 'Archivo Black', sans-serif;
+    background-color: rgba(204, 203, 203,0.2);
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    cursor: pointer;
+    font-weight: 400;
+} 
+#print{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 30px;
+
+}

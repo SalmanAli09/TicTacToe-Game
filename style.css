@@ -1,0 +1,45 @@
+html{
+    height: 100%;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+#main{
+    height: 600px;
+    width: 500px;
+    border: 1px solid none;
+    border-radius: 8px;
+    margin: 0px auto;
+    margin-top: 100px;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 41px;
+    text-align: justify;
+    background-color: rgba(207, 193, 193, 0.1);
+
+}
+#main h2{
+    padding-top: 15%;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+#main button{
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(207, 193, 193, 0.1);
+    border-color: rgb(185, 185, 185);
+    border-style: solid;
+    border-radius: 8px;
+    cursor: pointer !important;
+}
+#main button:active{
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    box-shadow: rgba(240, 240, 243, 0.1) 0px 1px 0px, rgba(229, 229, 236, 0.1) 0px 8px 24px, rgba(248, 248, 255, 0.1) 0px 16px 48px;
+}
