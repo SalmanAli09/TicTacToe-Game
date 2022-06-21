@@ -39,7 +39,7 @@ function myfunc() {
 		document.getElementById("b6").disabled = true;
 		document.getElementById("b8").disabled = true;
 		document.getElementById("b9").disabled = true;
-	swal("Congratulation's", "Player O Won The match! ");
+	swal("Congratulation's", "Player X Won The match! ");
 
 	}
 	else if ((b7 == 'x' || b7 == 'X') && (b8 == 'x' ||
@@ -65,7 +65,7 @@ function myfunc() {
 		document.getElementById("b5").disabled = true;
 		document.getElementById("b7").disabled = true;
 		document.getElementById("b8").disabled = true;
-		swal("Congratulation's", "Player O Won The match! ");
+		swal("Congratulation's", "Player X Won The match! ");
 	}
 	else if ((b1 == 'x' || b1 == 'X') && (b5 == 'x' ||
 		b5 == 'X') && (b9 == 'x' || b9 == 'X')) {
